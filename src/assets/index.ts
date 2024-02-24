@@ -1,0 +1,34 @@
+import logo from "./images/logo.png";
+import bannerImg from "./images/bannerImg.png";
+import projectOne from "./images/projects/projectOne.jpg";
+import projectTwo from "./images/projects/projectTwo.jpg";
+import projectThree from "./images/projects/projectThree.jpeg";
+import testimonialOne from "./images/testmonial/testimonialOne.png";
+import testimonialTwo from "./images/testmonial/testimonialTwo.png";
+import quote from "./images/testmonial/quote.png";
+import contactImg from "./images/contact/contactImg.png";
+import tobi from "./images/chisom.png"
+import wallet from "./images/wallet.png"
+import website from "./images/website.png"
+import phones from "./images/phones.png"
+import ecommerce from "./images/ecommerce.png"
+import piggyvest from "./images/piggyvest.png"
+import app from "./images/app.png"
+export {
+  logo,
+  bannerImg,
+  projectOne,
+  projectTwo,
+  projectThree,
+  testimonialOne,
+  testimonialTwo,
+  quote,
+  contactImg,
+  tobi,
+  wallet,
+  phones,
+  website,
+  ecommerce,
+  app,
+  piggyvest
+};
