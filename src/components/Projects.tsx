@@ -19,7 +19,7 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
          <a href="https://www.figma.com/proto/5Je1JVGTjuKQPMfurT1VfT/Tour?page-id=0%3A1&type=design&node-id=1-2&viewport=-71%2C388%2C0.02&t=NS3IGvhaJze45NQr-1&scaling=contain&mode=design"><ProjectsCard
             title="SOCIAL MEDIA DESIGN"
-            des=" Utilizing Figma, I've designed what, in my perspective, a next-generation social media website targeting a distinct demographic should resemble."
+            des="Designed a next-generation social media website targeting a specific demographic using Figma"
             src={app}
           /></a>
           
@@ -49,7 +49,7 @@ const Projects = () => {
           <a href="https://piggy-vest-cloned.vercel.app/">
           <ProjectsCard
             title="Piggy vest"
-            des=" (fintech) platform that offers savings and investment services.An online retail platform where customers can purchase both brand-new and refurbished smartphones."
+            des="A fintech platform providing savings and investment services, and an online retail platform offering brand-new and refurbished smartphones."
             src={piggyvest}
           />
           </a>
