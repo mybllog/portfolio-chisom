@@ -62,12 +62,7 @@ const Education = () => {
             title="Software developer"
             subTitle="Manifold Computers - (2023 - 2024)"
             result="Nigeria"
-            des="Participated in Developing a Cash Flow Applications using Nodejs as the backend and Reactjs as the frontend.
-            •Developed an e-commerce platform by employing frontend technologies including React, Tailwind CSS, Babel, React-Router-Dom, and Redux, coupled with backend technologies such as Nodejs, Expressjs, MySQL, Dotenv, and Nodemailer.
-            •	Implemented secure payment processing, user authentication and Ensured responsive design and seamless user experience across different devices.
-            •	Utilized version control(git)  and other essential tools for efficient development and code reliability.
-            •	Mapping of   Manifold e-commerce website to Zoho e-commerce through domain management and adding of SSL certificate for security.
-            . Worked on the Company Website.
+            des="Developed a Cash Flow application with Node.js backend and React.js frontend. Created an e-commerce platform with secure payment processing, user authentication, and responsive design using React, Tailwind CSS, and Node.js. Implemented efficient development practices with version control (Git) and other essential tools. Also, facilitated the mapping of Manifold e-commerce to Zoho with SSL integration and contributed to enhancements on the Company Website.
             "
 />
         </div>
