@@ -14,6 +14,7 @@ import phones from "./images/phones.png"
 import ecommerce from "./images/ecommerce.png"
 import piggyvest from "./images/piggyvest.png"
 import app from "./images/app.png"
+import capture from "./images/capture.png"
 export {
   logo,
   bannerImg,
@@ -30,5 +31,6 @@ export {
   website,
   ecommerce,
   app,
-  piggyvest
+  piggyvest,
+  capture
 };

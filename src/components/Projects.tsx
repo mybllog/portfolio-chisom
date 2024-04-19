@@ -1,6 +1,6 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
-import { piggyvest, phones, wallet,website,app,ecommerce } from "../assets";
+import { piggyvest, phones, wallet,website,app,ecommerce,capture } from "../assets";
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -16,7 +16,7 @@ const Projects = () => {
             des="My Projects"
           />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 animate-pulse">
          <a href="https://www.figma.com/proto/5Je1JVGTjuKQPMfurT1VfT/Tour?page-id=0%3A1&type=design&node-id=1-2&viewport=-71%2C388%2C0.02&t=NS3IGvhaJze45NQr-1&scaling=contain&mode=design"><ProjectsCard
             title="SOCIAL MEDIA DESIGN"
             des="Designed a next-generation social media website targeting a specific demographic using Figma"
@@ -53,7 +53,13 @@ const Projects = () => {
             src={piggyvest}
           />
           </a>
-        
+          <a href="https://nenyewrites.com/">
+          <ProjectsCard
+            title="Entrepreneur Resources"
+            des="A Blog Website"
+            src={capture}
+          />
+          </a>
         </div>
       </FadeIn>
     </section>
