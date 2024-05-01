@@ -7,9 +7,9 @@ import Achievement from './Achievement';
 import { FadeIn } from "./FadeIn";
 
 const Resume = () => {
-  const [educationData, setEducationData] = useState<boolean>(true);
+  const [educationData, setEducationData] = useState<boolean>(false);
   const [skillData, setSkillData] = useState<boolean>(false);
-  const [achievementData,setAchievementData] = useState<boolean>(true)
+  const [achievementData,setAchievementData] = useState<boolean>(false)
   return (
     <section
       id="resume"
@@ -24,6 +24,7 @@ const Resume = () => {
             <li
               onClick={() => {
                 setEducationData(true);
+                setAchievementData(false)
                 setSkillData(false);
               }}
               className={`${
@@ -38,6 +39,7 @@ const Resume = () => {
               onClick={() => {
                 setEducationData(false);
                 setSkillData(true);
+                setAchievementData(false)
               }}
               className={`${
                 skillData
@@ -50,9 +52,9 @@ const Resume = () => {
             {/* Other list items removed for brevity */}
             <li
               onClick={() => {
-                setEducationData(false);
+                setEducationData(false)
                 setSkillData(false)
-                setAchievementData(true);
+                setAchievementData(true)
               }}
               className={`${
                 achievementData
@@ -60,7 +62,7 @@ const Resume = () => {
                   : "border-transparent"
               } resumeLi`}
             >
-             Achievement
+              Achievement
             </li>
             {/* Other list items removed for brevity */}
             
