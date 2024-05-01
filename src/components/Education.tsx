@@ -42,7 +42,7 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]">2020-2021</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-8 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Software Developer Intern"
             subTitle="TC Resource Technology  - (2020-2021)"
@@ -62,7 +62,7 @@ const Education = () => {
             title="Software developer"
             subTitle="Manifold Computers - (2023 - 2024)"
             result="Nigeria"
-            des="Developed a Cash Flow application with Node.js backend and React.js frontend. Created an e-commerce platform with secure payment processing, user authentication, and responsive design using React, Tailwind CSS, and Node.js. Implemented efficient development practices with version control (Git) and other essential tools. Also, facilitated the mapping of Manifold e-commerce to Zoho with SSL integration and contributed to enhancements on the Company Website.
+            des="Developed a Cash Flow application and an e-commerce platform with secure payment processing, user authentication, and responsive design using React, Tailwind CSS, and Node.js, while also implementing efficient development practices, facilitating the integration of Manifold e-commerce to Zoho with SSL, and contributing to enhancements on the Company Website.
             "
 />
         </div>

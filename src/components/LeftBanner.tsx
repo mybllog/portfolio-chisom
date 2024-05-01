@@ -11,6 +11,8 @@ const LeftBanner = () => {
     deleteSpeed: 10,
     delaySpeed: 2000,
   });
+
+ 
   return (
     <FadeIn className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
@@ -85,7 +87,13 @@ const LeftBanner = () => {
             </span>
           </div>
         </div>
+       
       </div>
+      <button className="button hover:bg-white hover:text-black  py-2 px-4 rounded-lg">
+    <a className="button" href={"/public/files/chisomcv.pdf"} download = "chisomcv.pdf">
+      Download Resume
+    </a>
+</button>
     </FadeIn>
   );
 };
