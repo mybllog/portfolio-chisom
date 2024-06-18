@@ -1,6 +1,6 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
-import { piggyvest, phones, wallet,website,app,ecommerce,capture } from "../assets";
+import { piggyvest, phones, wallet,website,app,ecommerce,capture , locket,agencys,movie,moviess} from "../assets";
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -58,6 +58,34 @@ const Projects = () => {
             title="Entrepreneur Resources"
             des="A Blog Website"
             src={capture}
+          />
+          </a>
+          <a href="https://locmarket-web-git-main-anyas-projects-76cc820d.vercel.app">
+          <ProjectsCard
+            title="LocMarket"
+            des="Ecommerce Application"
+            src={locket}
+          />
+          </a>
+          <a href="https://travel-agency-gamma-three.vercel.app/">
+          <ProjectsCard
+            title="Travel Agency"
+            des="Travel Agency website"
+            src={agencys}
+          />
+          </a>
+          <a href="https://movieapp-livid-tau.vercel.app/">
+          <ProjectsCard
+            title="Nety"
+            des="Movie App"
+            src={movie}
+          />
+          </a>
+          <a href="https://expo.dev/artifacts/eas/8J4p4rYP6uVotAjYGGJakv.aab">
+          <ProjectsCard
+            title="Movies"
+            des="Movie Mobile App"
+            src={moviess}
           />
           </a>
         </div>
