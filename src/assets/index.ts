@@ -15,6 +15,10 @@ import ecommerce from "./images/ecommerce.png"
 import piggyvest from "./images/piggyvest.png"
 import app from "./images/app.png"
 import capture from "./images/capture.png"
+import locket from "./images/locket.png"
+import agencys from "./images/agencys.png"
+import movie from "./images/movie.jpg"
+import moviess from "./images/moviess.jpg"
 export {
   logo,
   bannerImg,
@@ -32,5 +36,9 @@ export {
   ecommerce,
   app,
   piggyvest,
-  capture
+  capture,
+  locket,
+  agencys,
+  movie,
+  moviess
 };

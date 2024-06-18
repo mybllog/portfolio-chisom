@@ -62,7 +62,7 @@ const Education = () => {
             title="Software developer"
             subTitle="Manifold Computers - (2023 - 2024)"
             result="Nigeria"
-            des="Developed a Cash Flow application and an e-commerce platform with secure payment processing, user authentication, and responsive design using React, Tailwind CSS, and Node.js, while also implementing efficient development practices, facilitating the integration of Manifold e-commerce to Zoho with SSL, and contributing to enhancements on the Company Website.
+            des="Worked with a team to developed a Cash Flow application for the finance team and an e-commerce platform with secure payment processing, user authentication, and responsive design using React, Tailwind CSS, and Node.js, while also implementing efficient development practices, facilitating the integration of Manifold e-commerce to Zoho with SSL, and contributing to enhancements on the Company Website.
             "
 />
         </div>
