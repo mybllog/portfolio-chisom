@@ -7,9 +7,9 @@ import Achievement from './Achievement';
 import { FadeIn } from "./FadeIn";
 
 const Resume = () => {
-  const [educationData, setEducationData] = useState<boolean>(true);
+  const [educationData, setEducationData] = useState<boolean>(false);
   const [skillData, setSkillData] = useState<boolean>(false);
-  const [achievementData,setAchievementData] = useState<boolean>(true)
+  const [achievementData,setAchievementData] = useState<boolean>(false)
   return (
     <section
       id="resume"
@@ -17,13 +17,14 @@ const Resume = () => {
     >
       <FadeIn>
         <div className="flex justify-center items-center text-center">
-          <Title title="2+ YEARS OF EXPERIENCE" des="My Resume" />
+          <Title title="YEARS OF EXPERIENCE" des="My Resume" />
         </div>
         <div>
           <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
             <li
               onClick={() => {
                 setEducationData(true);
+                setAchievementData(false)
                 setSkillData(false);
               }}
               className={`${
@@ -38,6 +39,7 @@ const Resume = () => {
               onClick={() => {
                 setEducationData(false);
                 setSkillData(true);
+                setAchievementData(false)
               }}
               className={`${
                 skillData
@@ -50,9 +52,9 @@ const Resume = () => {
             {/* Other list items removed for brevity */}
             <li
               onClick={() => {
-                setEducationData(false);
+                setEducationData(false)
                 setSkillData(false)
-                setAchievementData(true);
+                setAchievementData(true)
               }}
               className={`${
                 achievementData
@@ -60,7 +62,7 @@ const Resume = () => {
                   : "border-transparent"
               } resumeLi`}
             >
-             Achievement
+              Achievement
             </li>
             {/* Other list items removed for brevity */}
             
