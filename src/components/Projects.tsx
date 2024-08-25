@@ -29,7 +29,7 @@ const Projects = () => {
             src={ecommerce}
           /></a>
          
-           <a href="https://manifoldcomputers.com/webinars"><ProjectsCard
+           <a href="https://manifoldcomputers.com/"><ProjectsCard
             title="Company website"
             des="Using Wordpress i developed a Company website"
             src={website}

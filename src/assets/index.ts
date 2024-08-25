@@ -7,7 +7,7 @@ import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
-import tobi from "./images/chisom.png"
+import tobi from "./images/profile_pics.jpg"
 import wallet from "./images/wallet.png"
 import website from "./images/website.png"
 import phones from "./images/phones.png"
