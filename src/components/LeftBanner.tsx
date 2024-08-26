@@ -90,7 +90,7 @@ const LeftBanner = () => {
        
       </div>
       <button className="button hover:bg-white hover:text-black  py-2 px-4 rounded-lg">
-    <a className="button" href={"/public/files/Eleanora.pdf"} download = "chisomcv.pdf">
+    <a className="button" href={"/public/files/Eleanora.pdf"} download = "Eleanora.pdf">
       Download Resume
     </a>
 </button>
