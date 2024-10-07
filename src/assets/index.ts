@@ -19,6 +19,7 @@ import locket from "./images/locket.png"
 import agencys from "./images/agencys.png"
 import movie from "./images/movie.jpg"
 import moviess from "./images/moviess.jpg"
+import mesh from "./images/mesh.png"
 export {
   logo,
   bannerImg,
@@ -40,5 +41,6 @@ export {
   locket,
   agencys,
   movie,
-  moviess
+  moviess,
+  mesh
 };

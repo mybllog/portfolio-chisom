@@ -1,6 +1,6 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
-import { piggyvest, phones, wallet,website,app,ecommerce,capture , locket,agencys,movie,moviess} from "../assets";
+import { piggyvest, phones, wallet,website,app,ecommerce,capture , locket,agencys,movie,moviess, mesh} from "../assets";
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -86,6 +86,13 @@ const Projects = () => {
             title="Movies"
             des="Movie Mobile App"
             src={moviess}
+          />
+          </a>
+          <a href="https://mesh-sigma-ten.vercel.app">
+          <ProjectsCard
+            title="Company website"
+            des="Mesh Technologies"
+            src={mesh}
           />
           </a>
         </div>
