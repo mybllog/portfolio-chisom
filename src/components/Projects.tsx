@@ -1,6 +1,6 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
-import { piggyvest, phones, wallet,website,app,ecommerce,capture , locket,agencys,movie,moviess, mesh} from "../assets";
+import { piggyvest, phones, wallet,website,app,ecommerce,capture , locket,movie,moviess, mesh, tobi} from "../assets";
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -67,13 +67,7 @@ const Projects = () => {
             src={locket}
           />
           </a>
-          <a href="https://travel-agency-gamma-three.vercel.app/">
-          <ProjectsCard
-            title="Travel Agency"
-            des="Travel Agency website"
-            src={agencys}
-          />
-          </a>
+        
           <a href="https://movieapp-livid-tau.vercel.app/">
           <ProjectsCard
             title="Nety"
@@ -93,6 +87,13 @@ const Projects = () => {
             title="Company website"
             des="Mesh Technologies"
             src={mesh}
+          />
+          </a>
+          <a href="https://chisomweb.vercel.app/">
+          <ProjectsCard
+            title="Portfolio"
+            des="Portfolio"
+            src={tobi}
           />
           </a>
         </div>
