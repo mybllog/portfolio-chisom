@@ -1,6 +1,6 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
-import { piggyvest, phones, wallet,website,app,ecommerce,capture , locket,movie,moviess, mesh, tobi} from "../assets";
+import { piggyvest, phones, wallet,website,app,ecommerce,capture , locket,movie,moviess, mesh, tobi, ceo, bitrost} from "../assets";
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -94,6 +94,20 @@ const Projects = () => {
             title="Portfolio"
             des="Portfolio"
             src={tobi}
+          />
+          </a>
+          <a href="https://fullworks-2mus.vercel.app/">
+          <ProjectsCard
+            title="Fullwork Website"
+            des="Fullwork website"
+            src={ceo}
+          />
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.bifrost.app">
+          <ProjectsCard
+            title="Mobile bifrost app"
+            des="Mobile bifrost app"
+            src={bitrost}
           />
           </a>
         </div>
