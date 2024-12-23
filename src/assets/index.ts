@@ -20,6 +20,8 @@ import agencys from "./images/agencys.png"
 import movie from "./images/movie.jpg"
 import moviess from "./images/moviess.jpg"
 import mesh from "./images/mesh.png"
+import ceo from './images/ceo.jpg'
+import bitrost from './images/bitrost.jpg'
 export {
   logo,
   bannerImg,
@@ -42,5 +44,7 @@ export {
   agencys,
   movie,
   moviess,
-  mesh
+  mesh,
+  ceo,
+  bitrost
 };
